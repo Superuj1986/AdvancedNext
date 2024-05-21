@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 namespace AdvancedNext.Models
 {
     public class Khoahoc
-    {
+    { 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int kh_id { get; set; }
