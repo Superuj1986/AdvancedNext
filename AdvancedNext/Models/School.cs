@@ -10,7 +10,7 @@ namespace AdvancedNext.Models
 {
     public class Khoahoc
     {
-        [Key] 
+        [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int kh_id { get; set; }
         [ForeignKey("ApplicationUser")]
